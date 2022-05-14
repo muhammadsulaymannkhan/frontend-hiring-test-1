@@ -22,7 +22,7 @@ import { useSelector, useDispatch } from "react-redux";
 import styles from "../styles/Records.module.css";
 import { millisToMinutesAndSeconds } from "../helpers/helper";
 
-const records = () => {
+const Records = () => {
   const router = useRouter();
   const dispatch = useDispatch();
   const user = useSelector((state) => state.app.user);
@@ -189,4 +189,4 @@ const records = () => {
   );
 };
 
-export default records;
+export default Records;

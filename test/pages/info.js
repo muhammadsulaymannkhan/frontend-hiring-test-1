@@ -13,7 +13,7 @@ import {
 } from "grommet";
 import styles from "../styles/Info.module.css";
 
-const info = () => {
+ const Info = () => {
   const dispatch = useDispatch();
   const [noteText, setNoteText] = useState("");
   const [callId, setCallId] = useState();
@@ -83,4 +83,4 @@ const info = () => {
   );
 };
 
-export default info;
+export default Info;
