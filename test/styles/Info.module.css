@@ -1,0 +1,17 @@
+.info_container {
+    background-color: #433D37;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table_container {
+    background-color: #F8F7F7;
+    width: 1400px;
+    height: 600px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.35);
+    border-radius: 16px;
+    padding: 32px;
+}

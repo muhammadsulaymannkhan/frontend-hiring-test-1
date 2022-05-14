@@ -14,3 +14,21 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.button_primary {
+  background: #B99846;
+  border-radius: 16px;
+  color: #ffffff;
+  border-color: #ffffff;
+  padding: 8px;
+  cursor:pointer;
+}
+
+.button_primary:disabled {
+  background: grey;
+  border-radius: 16px;
+  color: #ffffff;
+  border-color: #ffffff;
+  padding: 8px;
+  cursor:default;
+}
